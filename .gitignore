@@ -1,0 +1,30 @@
+.env
+
+# Environment variables and local secrets
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+ENV/
+
+# Backend runtime data, indexes, and caches
+/backend/cache/
+/backend/data/
+/backend/backend.log
+
+# Frontend dependencies and build output
+/frontend/node_modules/
+/frontend/dist/
+/frontend/.vite/
+/dist/
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
